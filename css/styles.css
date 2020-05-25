@@ -40,7 +40,13 @@ body {
 div#phrase.section {
   border: 30px ridge #198CFF;
   background-color: rgba(29, 189, 29, 0.9);
-  /* border: 8px double #FFFFFF; */
+}
+
+div#qwerty.section {
+  background-image: url(/images/clipArt.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
 }
 
 li, ol, ul {
@@ -242,7 +248,9 @@ button:active:after{
 }
 
 .start {
-  background-color: var(--color-start);
+  background-image: url(/images/game_grid.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .start a {
