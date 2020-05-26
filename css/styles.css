@@ -20,13 +20,15 @@
 
 * {
   box-sizing: border-box;
+  /* margin: 10%,0,10%,0 auto; */
 }
 
 body {
   justify-content: space-evenly;
   flex-direction: column;
-  display:flexbox;
+  display:flex;
   height: 100vh;
+  margin: 10%,0,10%,0 auto;
   background: #A7A9AC;
   background-image: -webkit-gradient(
     linear,
@@ -244,12 +246,13 @@ button:active:after{
 }
 
 .title {
+  background-color: rgb(0, 0, 255, 0.7);
   color: #FFF;
 }
 
 .start {
-  background-image: url(/images/game_grid.png);
-  background-repeat: repeat;
+  background-image: url(/images/loading.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
